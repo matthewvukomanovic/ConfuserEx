@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ConfuserEx</id>
+    <version>1.0.0</version>
+    <authors>yck1509</authors>
+    <owners>yck1509,Matthew Vukomanovic</owners>
+    <licenseUrl>https://github.com/yck1509/ConfuserEx/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yck1509/ConfuserEx/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An open-source, free protector for .NET applications http://yck1509.github.io/ConfuserEx/</description>
+    <releaseNotes>New version of ConfuserEx! Please note that this would be the last official version of ConfuserEx. For more details please read http://yck1509.github.io/ConfuserEx/news/</releaseNotes>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <files>
+    <file src="..\Release\bin\Confuser.CLI.exe" target="tools"/>
+    <file src="..\Release\bin\Confuser.CLI.pdb" target="tools"/>
+    <file src="..\Release\bin\Confuser.Core.*" target="tools"/>
+    <file src="..\Release\bin\Confuser.DynCipher.*" target="tools"/>
+    <file src="..\Release\bin\Confuser.Protections.*" target="tools"/>
+    <file src="..\Release\bin\Confuser.Renamer.*" target="tools"/>
+    <file src="..\Release\bin\Confuser.Runtime.*" target="tools"/>
+    <file src="..\Release\bin\ConfuserEx.exe" target="tools"/>
+    <file src="..\Release\bin\ConfuserEx.exe.config" target="tools"/>
+    <file src="..\Release\bin\ConfuserEx.pdb" target="tools"/>
+    <file src="..\Release\bin\GalaSoft.MvvmLight.Extras.WPF4.dll" target="tools"/>
+    <file src="..\Release\bin\GalaSoft.MvvmLight.WPF4.dll" target="tools"/>
+    <file src="..\Release\bin\Microsoft.Practices.ServiceLocation.dll" target="tools"/>
+    <file src="..\Release\bin\Ookii.Dialogs.Wpf.dll" target="tools"/>
+    <file src="..\Release\bin\System.Windows.Interactivity.dll" target="tools"/>
+    <file src="..\Release\bin\dnlib.*" target="tools"/>
+  </files>
+</package>

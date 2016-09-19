@@ -1,0 +1,1 @@
+%s#.*#<file src="\0" target="tools"/>#
